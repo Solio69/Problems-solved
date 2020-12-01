@@ -24,7 +24,7 @@ function oddOrEven(array) {
 //     console.log(arr.reduce((a, b) => a + b, 0) % 2 ? 'odd' : 'even');
 // }
 
-// const oddOrEven = a => a.reduce((s, n) => s + n, 0) % 2 == 0 ? "even" : "odd";
+// const even_or_odd = a => a.reduce((s, n) => s + n, 0) % 2 == 0 ? "Even" : "Odd";
 
 oddOrEven([0]); //'even'
 oddOrEven([1]); // 'odd'
